@@ -1,0 +1,16 @@
+---
+layout: default
+nav: blog
+---
+<article>
+  <div class="wrap page-head">
+    <p class="date">{{ page.date | date: "%-d %B %Y" }}</p>
+    <h1 class="display">{{ page.title }}</h1>
+    {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+  </div>
+  <div class="wrap post-body prose">
+    {{ content }}
+    <p class="post-end">If this raised a question about your own organisation, write to us at <a href="mailto:advisory@gracieandmartins.com">advisory@gracieandmartins.com</a>.</p>
+    <p><a class="text-link" href="{{ '/blog/' | relative_url }}">More from the blog</a></p>
+  </div>
+</article>

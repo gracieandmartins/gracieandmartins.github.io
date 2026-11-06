@@ -1,0 +1,13 @@
+# Site settings. You should rarely need to change anything here.
+title: Gracie & Martins Partners
+description: Gracie & Martins Partners is a strategy and communications firm based in Lagos. Where narrative drives positioning.
+url: "https://gracieandmartins.com"
+baseurl: ""
+lang: en-GB
+permalink: /blog/:title/
+markdown: kramdown
+# Set prelaunch to false on launch day so search engines can list the site.
+prelaunch: true
+exclude:
+  - HOW-TO-EDIT.md
+  - README.md
