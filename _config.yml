@@ -6,8 +6,10 @@ baseurl: ""
 lang: en-GB
 permalink: /blog/:title/
 markdown: kramdown
-# Set prelaunch to false on launch day so search engines can list the site.
-prelaunch: true
+# prelaunch: true hides the site from search engines. false lets them list it.
+prelaunch: false
 exclude:
   - HOW-TO-EDIT.md
   - README.md
+plugins:
+  - jekyll-sitemap
